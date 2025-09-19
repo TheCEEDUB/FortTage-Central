@@ -33,3 +33,26 @@ iframe {
   border-radius: 10px;
   border: none;
 }
+.pro-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #003366, #001a33);
+  border: 2px solid #00bfff;
+  border-radius: 12px;
+  padding: 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 0 0 12px rgba(0, 191, 255, 0.5);
+}
+
+.pro-card:hover {
+  background: linear-gradient(135deg, #00bfff, #0066cc);
+  color: black;
+  transform: scale(1.08);
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.8);
+}
+
