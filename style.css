@@ -1,5 +1,4 @@
 body {
-  fbody {
   font-family: Arial, sans-serif;
   background: linear-gradient(135deg, #0a0a0a, #001f3f, #0a0a0a);
   background-attachment: fixed; /* makes it stay still when scrolling */
@@ -11,8 +10,11 @@ body {
 
 }
 header {
-  background: #1a1a1a;
+  background: linear-gradient(90deg, #001f3f, #004080);
   padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.5);
+}
+
 }
 header h1 {
   margin: 0;
